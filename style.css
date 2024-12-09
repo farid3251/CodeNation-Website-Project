@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.line {
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+body {
+    background-color: #1c1c1c;
+    font-size: small;
+    margin: auto;
+    padding: 0;
+    font-family: "Roboto";
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: #ffffff;
+    align-content: center;
+    max-width: 500px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #f5b32f;
+    color: #1c1c1c;
+    font-size: large;
+    width: 500px;
+    padding: 5px;
+}
+
+img{
+    padding-bottom: 20px;}
+
+h1 {
+    color: #f5b32f;
+    padding: 20px;
+    font-size: x-large;
+}
+
+h2 {
+    color: #f5b32f;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.reviewsgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviewsgrid img {
+    display: flex;
+
+    width: 240px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.rtxt {
+    display: flex;
+    width: 220px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    max-width: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.grid {
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ybox {
+    background-color: #f5b32f;
+    display: flex;
+    width: 200px;
+    flex-flow: column;
+    color: #1c1c1c;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.bbox {
+    background-color: #f5b32f;
+    display: flex;
+    width: 200px;
+    flex-flow: column;
+    color: #1c1c1c;
+    font-weight: bold;
+    padding: 10px;
+}
